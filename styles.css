@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60% 0%;
+  background-attachment: fixed;
 }
 #skills i {
     height: 100px;
