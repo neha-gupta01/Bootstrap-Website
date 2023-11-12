@@ -1,5 +1,11 @@
 .james {
   height: 100vh;
   background-image: url("./images/james.bg.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: 60% 0%;
+}
+#skills i {
+    height: 100px;
+    width: 100px;
 }
