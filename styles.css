@@ -1,9 +1,9 @@
 .nav-item .nav-link {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .nav-item .nav-link:hover {
-  color: #ccc;
+  color: rgb(204, 204, 204);
 }
 
 .james {
@@ -61,6 +61,11 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+footer .social-icons a {
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (max-width: 990px) {
