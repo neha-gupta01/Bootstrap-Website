@@ -1,3 +1,11 @@
+.nav-item .nav-link {
+  color: white;
+}
+
+.nav-item .nav-link:hover {
+  color: #ccc;
+}
+
 .james {
   height: 100vh;
   background-image: url("./images/james.bg.jpg");
@@ -8,10 +16,43 @@
 }
 
 #skills i {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 #portfolio img {
-    height: 300px;
+  height: 300px;
+}
+
+#about img,
+#about .next-hire h2 {
+  width: 140px;
+}
+
+#about .img,
+#about img,
+.next-hire h2 {
+  position: relative;
+}
+
+#about .img::before {
+  content: "";
+  position: absolute;
+  background: rgb(226, 224, 224);
+  width: 4px;
+  left: 50%;
+  height: calc(100% + 98px);
+}
+
+@media screen and (max-width: 990px) {
+  #skills .card {
+    width: calc(100% / 2 - 10px) !important;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  #skills .card,
+  #portfolio .card-wrapper {
+    width: 100% !important;
+  }
 }
